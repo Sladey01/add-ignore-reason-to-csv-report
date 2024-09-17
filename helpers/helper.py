@@ -33,6 +33,7 @@ def collect_reason_data(csv_data, project_url_index):
     print('Collecting reason data for ignores.')
     reason_data = []
     ignore_reporter = []
+    expires_data = []
 
     for row in csv_data[0]:
         if project_url_index != None:
